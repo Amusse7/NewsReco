@@ -34,8 +34,8 @@ pip install -r requirements.txt
 
 3. Configure your NewsAPI key:
 
-   - Open `bash config.py`
-   - Replace `bash YOUR_NEWS_API_KEY` with your actual NewsAPI key
+   - Open `config.py`
+   - Replace `YOUR_NEWS_API_KEY` with your actual NewsAPI key
 
 ## Project Structure 🚧
 
