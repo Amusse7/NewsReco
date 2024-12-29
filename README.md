@@ -69,4 +69,6 @@ http://localhost:5000
 
 ## Results ⌛
 
-<img src="Screenshot.png" alt="Demo" width="600"/>
+<img src="Screenshot-1.png" alt="Demo" width="600"/>
+
+<img src="Screenshot-2.png" alt="Demo" width="600"/>
