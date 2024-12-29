@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Recommender</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Personalized News Recommendation</h1>
+    <form method="POST">
+      <input
+        type="text"
+        name="query"
+        placeholder="Enter your interest..."
+        required
+      />
+      <button type="submit">Search</button>
+    </form>
+    {% if query %}
+    <h2>Results for "{{ query }}"</h2>
+    <ul>
+      {% for article in articles %}
+      <li>
+        <a href="{{ article['url'] }}" target="_blank"
+          >{{ article['title'] }}</a
+        >
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </body>
+</html>
