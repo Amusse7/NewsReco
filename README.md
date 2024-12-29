@@ -22,6 +22,7 @@ Before running the project, ensure you have:
 
 ```bash
 git clone https://github.com/Amusse7/NewsReco
+
 cd NewsReco
 ```
 
